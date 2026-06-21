@@ -1,0 +1,8 @@
+# For client.py (QGenie + LangChain)
+qgenie
+langchain>=1.0
+langchain-mcp-adapters
+
+# For client_openai.py (OpenAI SDK + MCP SDK)
+openai
+mcp

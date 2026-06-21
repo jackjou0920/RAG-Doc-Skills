@@ -1,0 +1,29 @@
+Loaded MCP tools: ['search_docs', 'get_chunk', 'get_document']
+
+=== Answer ===
+Based on the ingested TSMC document, here's what CoWoS packaging is:
+
+## CoWoS Packaging
+
+**CoWoS stands for "Chip on Wafer on Substrate."** It is one of TSMC's advanced (back-end / "BE 3D") packaging technologies, part of their **TSMC 3DFabric™** integration platform. *(Source: TSMC_Packaging_Technologies_public.pdf, p.3)*
+
+### Core concept
+CoWoS is a **silicon-interposer-based 2.5D system integration** technology. Multiple chips (dies) are mounted onto a silicon interposer wafer, which provides the high-density die-to-die interconnect, and that assembly is then placed onto a substrate — hence "Chip on Wafer on Substrate." *(Source: TSMC_Packaging_Technologies_public.pdf, p.20–21)*
+
+### Key points (from the CoWoS®-S Technology slide, p.21)
+- **Silicon interposer 2.5D system integration** for advanced SoC and HBM (High Bandwidth Memory).
+- **One decade of production** with high yield and premium quality.
+- Continues to **enrich interposer features with an extended envelope for HPC** (High Performance Computing).
+- A typical CoWoS®-S structure integrates an **SoC together with HBM stacks** on a silicon interposer for fast die-to-die interconnect.
+
+### CoWoS variants
+TSMC offers several flavors of CoWoS depending on the interposer type *(Source: p.3 table)*:
+- **CoWoS®-S** — uses a **Si (silicon) interposer**
+- **CoWoS®-R** — uses an **RDL (Redistribution Layer) interposer**
+- **CoWoS®-L** — uses an **LSI + RDL interposer** (Local Si Interconnect combined with RDL)
+
+An advanced example mentioned in the deck is **CoWoS-S with a 3-reticle Si interposer**, featuring 5 metal layers (5Mi) and eDTC (embedded deep trench capacitor). *(Source: p.23)*
+
+In short, CoWoS is TSMC's 2.5D advanced packaging approach that places multiple chiplets/dies side-by-side on a silicon (or RDL/LSI) interposer atop a substrate, enabling high-bandwidth integration of logic SoCs with HBM — widely used for HPC and AI applications.
+
+Would you like more detail on a specific variant (e.g., CoWoS-L vs. CoWoS-S) or how it compares to TSMC's InFO or SoIC technologies?
